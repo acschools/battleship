@@ -1,20 +1,21 @@
 h1 {
   color:		#323ce9;
   text-align: center;
-  font-family: 'Bangers', cursive;
+  font-family: 'Bungee Shade', cursive;
   font-size: 10em;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 30px;
-  color:blue;
+  color:#05E9FF;
   text-align: center;
 }
 
 td {
   border-style: solid;
+  border-color: #05E9FF;
   height: 40px;
   width: 40px;
-  background:linear-gradient(to right, #28fcff, #3297e9);
+  background:linear-gradient(to right, #0f0f0f, #494949);
   height: 50px;
   width: 50px;
 }
@@ -22,10 +23,11 @@ table{
   border-collapse: collapse;
   display: flex;
   justify-content: center;
+  margin-right: 30px;
 }
 
 .shot{
-  background: black;
+  background:linear-gradient(to right,#00688B, #05E9FF);
 }
 .hit{
   background: red;
@@ -33,21 +35,23 @@ table{
 
 h4{
   text-align: center;
-  font-family: 'Bangers', cursive;
+  font-family: 'Bungee Shade', cursive;
   margin-bottom: 10px;
   font-size: 2em;
+  color: white;
 }
 
 h2{
   text-align: center;
-  font-family: 'Bangers', cursive;
+  font-family: 'Bungee Shade', cursive;
   font-size: 2.5em;
-  color: #25e7d1;
 }
+
 p{
   text-align: center;
-  font-family: 'Bangers', cursive;
-  font-size: 1.5em
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2em;
+  color: red;
 }
 
 img {
@@ -60,8 +64,9 @@ img {
   justify-content: center;
 }
 header {
-    background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/ca/Chilean_battleship_Almirante_Latorre.jpg');
-    background-size: contain;
+    /*background-image:url('https://0.s3.envato.com/files/102616384/radar.jpg');*/
+    background-color: black;
+    background-size: cover;
     height: 250px;
     margin-bottom: 20px;
 }
@@ -72,7 +77,23 @@ header {
   border-style: solid;
   height: 250px;
   width: 250px;
+  background-image: url('https://thumbs.dreamstime.com/x/radar-screen-sonar-18540110.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: #05E9FF;
 }
 .hit{
   background-color: red;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
+  font-size: 1em;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
 }
